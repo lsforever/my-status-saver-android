@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageViewerActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <LinearLayout
+        android:id="@+id/linear_image_v"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.leinardi.android.speeddial.SpeedDialView
+            android:id="@+id/speed_dial_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            app:sdExpansionMode="top"
+            app:sdMainFabClosedIconColor="#FFFFFF"
+            app:sdMainFabClosedSrc="@drawable/ic_add_black_24dp"
+            app:sdMainFabOpenedIconColor="#FFFFFF"
+            app:sdMainFabOpenedSrc="@drawable/ic_close_black_24dp"
+            app:sdUseReverseAnimationOnClose="true" />
+
+        <!--app:sdMainFabClosedBackgroundColor="@color/fabColor"-->
+        <!--app:sdMainFabOpenedBackgroundColor="@color/fabColor"-->
+
+    </LinearLayout>
+
+
+</FrameLayout>
+
+
+<!--<com.leinardi.android.speeddial.SpeedDialView-->
+<!--android:id="@+id/speed_dial_slider"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_gravity="bottom|end"-->
+<!--app:sdExpansionMode="top"-->
+<!--app:sdMainFabClosedBackgroundColor="#2196F3"-->
+<!--app:sdMainFabClosedIconColor="#FFFFFF"-->
+<!--app:sdMainFabClosedSrc="@drawable/ic_add_black_24dp"-->
+<!--app:sdMainFabOpenedBackgroundColor="#2196F3"-->
+<!--app:sdMainFabOpenedIconColor="#FFFFFF"-->
+<!--app:sdMainFabOpenedSrc="@drawable/ic_close_black_24dp"-->
+<!--app:sdUseReverseAnimationOnClose="true" />-->

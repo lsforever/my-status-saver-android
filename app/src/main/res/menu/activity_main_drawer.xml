@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Normal Statuses" />
+
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/ic_format_bold_black_24dp"
+            android:title="Business Statuses" />
+        <!--<item-->
+            <!--android:id="@+id/nav_images"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="View Images" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_videos"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="View Videos" />-->
+
+
+        <item
+            android:id="@+id/nav_saved_statuses"
+            android:icon="@drawable/ic_baseline_save_alt_24"
+            android:title="Saved Statuses" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/action_settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_people_black_24dp"
+                android:title="Invite a friend" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Rate" />
+
+            <!--<item-->
+                <!--android:id="@+id/nav_contact"-->
+                <!--android:icon="@drawable/ic_call_black_24dp"-->
+                <!--android:title="Contact Us" />-->
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<RatingBar-->
+        <!--android:layout_gravity="center"-->
+        <!--android:id="@+id/ratingBar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:stepSize="0.5"-->
+        <!--android:rating="10"-->
+        <!--android:numStars="10"/>-->
+
+    <FrameLayout
+        android:background="?attr/colorPrimary"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_star_black_24dp" />
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_rate" />
+
+    </FrameLayout>
+
+
+
+
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="Hey there,\nSeems like you are Enjoying using\n'Status Saver'!\n\nIf that's the case,\nPlease Rate the App on Store.\nIt hardly takes a minute. :)"/>
+</LinearLayout>

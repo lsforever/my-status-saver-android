@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/actionA_help"
+        android:icon="@drawable/ic_help_white_24dp"
+        android:title="Info"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/actionA_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+<!--    <item-->
+<!--        android:id="@+id/actionA_more_apps"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="More Apps"-->
+<!--        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/actionA_share"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="never" />
+
+</menu>

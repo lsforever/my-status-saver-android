@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Status Saver</string>
+    <string name="nav_header_title">Status Saver</string>
+    <string name="nav_header_subtitle">Version</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tab_text_1">IMAGES</string>
+    <string name="tab_text_2">VIDEOS</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_saved_statuses">Saved Statuses</string>
+
+    <string name="activity_main_label">Easy Status Saver</string>
+    <string name="no_statuses">No Statuses Available !\nCheck out some status &amp; come back again.</string>
+
+
+
+
+
+
+    <!--Test Ad ids for layouts-->
+    <string name="ad_id_banner">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!--Original Ad ids for layouts-->
+<!--    <string name="ad_id_banner">ca-app-pub-2401740192017724/5023780448</string>-->
+
+
+</resources>

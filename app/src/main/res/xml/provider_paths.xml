@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="statuses_folder"
+        path="/WhatsApp/Media/.Statuses/" />
+
+    <external-path
+        name="Others"
+        path="." />
+
+</paths>
